@@ -1,0 +1,18 @@
+baseball old board.
+
+number   name           digits        borders    key
+
+1        home score     d4, d5,       0.. 199    _home_score       +
+2        guest score    d6, d7,       0.. 199    _guest_score      +
+
+3        inning         d0            0... 19    _period           +..
+4        ball           d2            _,1,2,3    _player
+                        d9.efg        _,1,3,7   
+5        strike         d3            _,1,2      _shot
+                        d9.ab         _,1,3
+6        out            d1            _,1,2      _day
+                        d9.cd         _,1,3
+7        hit            d8.ab         _,1,2      _empty
+
+
+==================================================================
